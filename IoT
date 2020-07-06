@@ -43,8 +43,8 @@ int _leituraMaxima;
 
 void setup() {
 
-pinMode(PINO_LED_ERRO, OUTPUT); d
-igitalWrite(PINO_LED_ERRO, LOW);
+pinMode(PINO_LED_ERRO, OUTPUT); 
+digitalWrite(PINO_LED_ERRO, LOW);
 
 pinMode(PINO_SENSOR_TEMPERATURA, INPUT); 
 pinMode(PINO_SENSOR_UMIDADE, INPUT);
